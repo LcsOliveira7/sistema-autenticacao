@@ -6,4 +6,4 @@ const pool = mysql.createPool({
   database: 'sistema_auth'
 });
 
-module.exports = pool.promise();
+module.exports = pool;
